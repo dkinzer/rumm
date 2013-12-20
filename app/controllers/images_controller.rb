@@ -1,7 +1,7 @@
 class ImagesController < MVCLI::Controller
-  requires :compute
+  requires :images
 
   def index
-    compute.images.all
+    images.all
   end
 end
